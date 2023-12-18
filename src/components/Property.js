@@ -74,10 +74,10 @@ export const Property = () => {
           
       <div className=" container grid grid-cols-3 gap-5">
       {data.properties.map((res) => (
-        <Link href={`/${res._id}`}>
+        <Link href={`/${res._id}`} key={res._id}>
         <div key={res.id} className="bg-slate-200 p-6 border rounded-xl">
           
-          <Image src={`https://villa-agency-backend.vercel.app/${res.images}`} width={500} height={500} className="border rounded-lg" ></Image>
+          <Image src={`https://villa-agency-backend.vercel.app/${res.images}`} alt={""} width={500} height={500} className="border rounded-lg" ></Image>
           <div className="flex gap-24 mt-8 text-center">
              <span className="bg-red-300 p-1 w-36 rounded-md text-base font-semibold">{res.categories}</span>
              <span className="text-primary text-xl font-bold mt-2">${res.price}</span>

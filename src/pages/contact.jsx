@@ -63,7 +63,7 @@ export default function Contact() {
                </div>
 
                <div className=" w-1/2 flex shadow-xl p-7 gap-8 mt-14">
-<Image src={phoneImg} width={60} height={50}></Image>
+<Image src={phoneImg} alt={""} width={60} height={50}></Image>
 <div>
     <p className="text-third text-2xl font-bold">010-020-0340</p>
     <p className="text-secondary text-lg font-semibold">Phone Number</p>
@@ -71,7 +71,7 @@ export default function Contact() {
     </div>
 
     <div className=" w-1/2 flex shadow-xl p-7 gap-8 mt-14">
-<Image src={emailImg} width={60} height={50}></Image>
+<Image src={emailImg} alt={""} width={60} height={50}></Image>
 <div>
     <p className="text-third text-2xl font-bold">info@villa.com</p>
     <p className="text-secondary text-lg font-semibold">Business Email</p>

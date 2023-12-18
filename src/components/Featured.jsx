@@ -85,28 +85,28 @@ export const Featured = () => {
    </div>
    <div className="w-80 shadow-2xl p-4">
     <div className="flex border-b border-neutral-200 p-7 gap-8">
-<Image src={areaImg} width={60} height={50}></Image>
+<Image src={areaImg} alt={""} width={60} height={50}></Image>
 <div>
     <p className="text-third text-2xl font-bold">{data[0].area} m2</p>
     <p className="text-secondary text-lg font-semibold">Total Flat Space</p>
 </div>
     </div>
     <div className="flex border-b border-neutral-200 p-7 gap-8">
-<Image src={contractImg} width={60} height={50}></Image>
+<Image src={contractImg} alt={""} width={60} height={50}></Image>
 <div>
     <p className="text-third text-2xl font-bold">{data[0].contract}</p>
     <p className="text-secondary text-lg font-semibold">Contract</p>
 </div>
     </div>
     <div className="flex border-b border-neutral-200 p-7 gap-8">
-<Image src={paymentImg} width={60} height={50}></Image>
+<Image src={paymentImg} alt={""} width={60} height={50}></Image>
 <div>
     <p className="text-third text-2xl font-bold">{data[0].payment_process}</p>
     <p className="text-secondary text-lg font-semibold">Payment Process</p>
 </div>
     </div>
     <div className="flex p-7 gap-8">
-<Image src={safetyImg} width={60} height={50}></Image>
+<Image src={safetyImg} alt={""} width={60} height={50}></Image>
 <div>
     <p className="text-third text-2xl font-bold">24/7 under control</p>
     <p className="text-secondary text-lg font-semibold">Safety</p>

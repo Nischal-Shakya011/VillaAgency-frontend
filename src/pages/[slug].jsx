@@ -34,28 +34,28 @@ return(
 
 <div className="w-80 shadow-2xl p-4 h-fit">
     <div className="flex border-b border-neutral-200 p-7 gap-8">
-<Image src={areaImg} width={60} height={50}></Image>
+<Image src={areaImg} alt={""} width={60} height={50}></Image>
 <div>
     <p className="text-third text-2xl font-bold">{data?.area} m2</p>
     <p className="text-secondary text-lg font-semibold">Total Flat Space</p>
 </div>
     </div>
     <div className="flex border-b border-neutral-200 p-7 gap-8">
-<Image src={contractImg} width={60} height={50}></Image>
+<Image src={contractImg} alt={""} width={60} height={50}></Image>
 <div>
     <p className="text-third text-2xl font-bold">{data?.contract}</p>
     <p className="text-secondary text-lg font-semibold">Contract</p>
 </div>
     </div>
     <div className="flex border-b border-neutral-200 p-7 gap-8">
-<Image src={paymentImg} width={60} height={50}></Image>
+<Image src={paymentImg} alt={""} width={60} height={50}></Image>
 <div>
     <p className="text-third text-2xl font-bold">{data?.payment_process}</p>
     <p className="text-secondary text-lg font-semibold">Payment Process</p>
 </div>
     </div>
     <div className="flex p-7 gap-8">
-<Image src={safetyImg} width={60} height={50}></Image>
+<Image src={safetyImg} alt={""} width={60} height={50}></Image>
 <div>
     <p className="text-third text-2xl font-bold">24/7 under control</p>
     <p className="text-secondary text-lg font-semibold">Safety</p>
@@ -72,7 +72,7 @@ return(
 Get the best villa agency HTML CSS Bootstrap Template for your company website.
 TemplateMo provides you the best free CSS templates in the world. Please tell
 your friends about it. Thank you. Cloud bread kogi bitters pitchfork shoreditch
-tumblr yr succulents single-origin coffee schlitz enamel pin you probably haven't
+tumblr yr succulents single-origin coffee schlitz enamel pin you probably have not
 heard of them ugh hella.<br/>
 When you look for free CSS templates, you can simply type TemplateMo in any search engine
 website. In addition, you can type TemplateMo Digital Marketing, TemplateMo

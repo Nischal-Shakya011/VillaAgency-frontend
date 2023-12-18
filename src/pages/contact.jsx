@@ -7,7 +7,7 @@ import * as yup from "yup";
 import { useState } from "react";
 import emailImg from '../assets/email.png'
 import phoneImg from '../assets/phone.png'
-import GoogleMaps from "@/components/GoogleMap";
+
 
 
 const schema = yup
@@ -151,7 +151,6 @@ export default function Contact() {
           </form>
         </div>
       </div>
-      <GoogleMaps/>
     </>
   );
 }

@@ -12,7 +12,7 @@ export const Navigation = () =>{
 <Link className="hover:text-primary" href={"/properties"}>Properties</Link>
 <Link className="hover:text-primary" href={"/slug"}>Properties Details</Link>
 <Link className="hover:text-primary" href={"/contact"}>Contact us</Link>
-<Link href={"/"}>
+<Link href={"/contact"}>
 <button className="border-2 rounded-3xl outline-none w-40 bg-[#080a1c] hover:text-primary p-2 text-white text-base">Schedule a Visit</button>
 </Link>
             </div>

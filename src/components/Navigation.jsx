@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export const Navigation = () =>{
     return(
-        <div className=" container flex justify-between p-6">
+        <div className=" container flex justify-between p-6 bg-white">
             <div>
                 <Link className="font-bold text-2xl text-[#080a1c]" href={"/"}>VILLA</Link>
             </div>

@@ -7,6 +7,7 @@ import {ApiProvider} from '@reduxjs/toolkit/query/react'
 import {propertyApi} from '../features/apiSlice'
 import {Header} from '../components/Header'
 import {Navigation} from '../components/Navigation'
+import {Footer} from '@/components/Footer';
 // import {Property} from '../components/Property'
 // import {Banner} from '../components/Banner'
 // import {Featured} from '../components/Featured'
@@ -22,7 +23,7 @@ export default function App({ Component, pageProps }) {
     <Header/>
     <Navigation/>
     <Component {...pageProps} />
-    
+    <Footer/>
     {/* <Banner/>
     <Property/> 
     <Featured/>

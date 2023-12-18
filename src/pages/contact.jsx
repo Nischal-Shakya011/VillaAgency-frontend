@@ -7,6 +7,7 @@ import * as yup from "yup";
 import { useState } from "react";
 import emailImg from '../assets/email.png'
 import phoneImg from '../assets/phone.png'
+import Submitted from '../components/Submitted';
 
 
 
@@ -30,6 +31,7 @@ export default function Contact() {
     resolver: yupResolver(schema),
   });
 
+  const [showSubmitted, setShowSubmitted] = useState(false);
 
   const onSubmit = (data) => {
     setisSumbitting(true)
@@ -37,6 +39,7 @@ export default function Contact() {
       .then((res) => {
         console.log("success");
     setisSumbitting(false)
+    setShowSubmitted(true)
         
       })
       .catch((err) => {
@@ -44,9 +47,15 @@ export default function Contact() {
         console.log(err);
       });
   };
+  const handleOkClick = () => {
+    setShowSubmitted(false)  };
 
   return (
     <>
+    {showSubmitted ? 
+       ( <Submitted onOkClick={handleOkClick} />)
+       : 
+        <div>
  <div className="bg-third w-full h-44 py-16">
         <h1 className="text-white text-4xl font-bold text-center ">CONTACT US</h1>
       </div>
@@ -151,6 +160,9 @@ export default function Contact() {
           </form>
         </div>
       </div>
-    </>
-  );
+      </div>
 }
+    </>
+    );
+}
+    

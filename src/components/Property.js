@@ -95,7 +95,7 @@ export const Property = () => {
            </div>
           </div>
           <div className="mt-12 text-center">
-            <Link href={"/"}>
+            <Link href={"/contact"}>
           <button className=" border-2 rounded-3xl outline-none bg-[#080a1c] w-40 hover:text-primary p-2 text-white text-base" >Schedule a Visit</button>
             </Link>
           </div>

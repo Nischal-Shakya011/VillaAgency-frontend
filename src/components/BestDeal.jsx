@@ -91,7 +91,7 @@ export const BestProperty = () => {
 
   <p className="text-third text-lg font-semibold">Extra information about {selectedCategory}</p><br/>
   <p className="text-secondary">{data?.bestProperty[0]?.information}</p><br/><br/>
-<Link href={"/"}>
+<Link href={"/contact"}>
 <button className="border-2 rounded-3xl outline-none w-40 bg-[#080a1c] hover:text-primary p-3 text-white text-base" >Schedule a Visit</button>
 </Link>
 </div>

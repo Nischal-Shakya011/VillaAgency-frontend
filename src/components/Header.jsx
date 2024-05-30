@@ -16,7 +16,7 @@ export const Header = () => {
     <p className="text-secondary"><GrMapLocation className="inline text-primary mr-2 text-2xl" /> Sunny Isles Beach, FL 33160</p>
 </div>
 <div className="flex gap-3">
-<a href="www.facebook.com"><FaFacebook /></a>
+<a href="www.facebook.com"><FaFacebook/></a>
 <a href="www.twitter.com"><FaTwitterSquare /></a>
 <a href="www.linkedin.com"><FaLinkedin /></a>
 <a href="www.instagram.com"><FaInstagramSquare /></a>

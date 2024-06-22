@@ -11,6 +11,7 @@ export const BestProperty = () => {
   const handleButtonClick = (category) => {
     setSelectedCategory(category);
   };
+  
   let url = `https://villa-agency-backend.vercel.app/${data?.bestProperty[0]?.images}`
 
   return (

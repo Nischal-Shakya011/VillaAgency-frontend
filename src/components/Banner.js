@@ -33,7 +33,7 @@ var settings = {
         // console.log(res);
         return<>
           <div key={res.id}>
-       <Image src={url} alt='' className="w-full h-screen" width={200} height={200}></Image> 
+       <Image src={url} alt='' className="w-full h-screen" width={200} height={200} unoptimized></Image> 
         </div>
         </>
       

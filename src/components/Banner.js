@@ -25,7 +25,7 @@ var settings = {
   }
 
   return (
-        <div className="w-full">
+        <div className="w-full h-screen overflow-hidden">
       <Slider {...settings}>
      
      {data.images.map((res) => {
